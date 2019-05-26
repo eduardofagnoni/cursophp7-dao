@@ -35,14 +35,26 @@ $aluno->insert();
 echo $aluno;
 */
 
-
+/*
 $usuario = new Usuario();
 $usuario->loadById(6);
-$usuario->update("Eduardo Fagnoni", "q1w2e3r4t5y6u7i8o9p0");
-
-
+$usuario->update("EduardoFagnoni", "q1w2e3r4t5y6u7i8o9p0");
 
 echo $usuario;
+
+*/
+
+$usuario = new Usuario();
+$usuario->loadById(3);
+
+$usuario->delete();
+echo $usuario;
+
+
+
+
+
+
 
 
 ?>
